@@ -15,24 +15,24 @@
     --popover: 0 0% 0%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 48 100% 50%;
+    --primary: 340 82% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 15%;
+    --secondary: 330 20% 15%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 330 15% 15%;
+    --muted-foreground: 330 10% 60%;
 
-    --accent: 0 0% 15%;
+    --accent: 330 20% 15%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 26%;
-    --input: 0 0% 26%;
-    --ring: 48 100% 50%;
+    --border: 330 15% 26%;
+    --input: 330 15% 26%;
+    --ring: 340 82% 60%;
 
     --radius: 0.5rem;
 
@@ -82,7 +82,7 @@
   }
 
   .font-sentient {
-    font-family: 'PT Serif', serif;
+    font-family: "PT Serif", serif;
   }
 
   .shadow-glow {
@@ -106,9 +106,13 @@
 
 /* Vignette effect overlay */
 #webgl::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.6) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    transparent 30%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
 }
